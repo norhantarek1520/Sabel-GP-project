@@ -1,0 +1,20 @@
+version: '3'
+services:
+  backend:
+    container_name: backend-container
+    build: ./server/.
+    volumes:
+      - ./server/src:/app/src
+    ports:
+      - "8000:8000"
+    command: bash -c "cd src && python manage.py runserver 0.0.0.0:8000"
+
+  reactjs:
+    container_name: react-container
+    build: ./client/.
+    volumes:
+      - ./client/src:/app/src
+    ports:
+      - "3000:3000"
+    environment:
+      - WATCHPACK_POLLING=true
