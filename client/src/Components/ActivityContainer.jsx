@@ -21,30 +21,7 @@ return(<div>
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-6 col-xl-4">
-                    <div className="activities-item p-4 wow fadeIn" data-wow-delay="0.3s">
-                        <i className="fa fa-donate fa-4x text-dark"></i>
-                        <div className="ms-4">
-                            <h4> اختبر معلوماتك</h4>
-                            <p className="mb-4">
-                                الاختبار عباره عن مجموعه من الاساله من 4 اختيارات اختار اجابه واحده فقط وفي النهايه سيظهر لك نتيجه الاختبار 
-                            </p>
-                            <a href="/test" className="btn btn-primary px-3">اقرأ المزيد</a>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-6 col-xl-4">
-                    <div className="activities-item p-4 wow fadeIn" data-wow-delay="0.5s">
-                        <i className="fa fa-quran fa-4x text-dark"></i>
-                        <div className="ms-4">
-                            <h4>خطه تعلم القرآن </h4>
-                            <p className="mb-4">
-                                يساعدك سبيل علي وضع خطه لتعلم القران في المده الزمنيه التي تحددها 
-                            </p>
-                            <a href="/Plan_memorize_Qur’an" className="btn btn-primary px-3">اقرأ المزيد</a>
-                        </div>
-                    </div>
-                </div>
+             
                 <div className="col-lg-6 col-xl-4">
                     <div className="activities-item p-4 wow fadeIn" data-wow-delay="0.1s">
                         <i className="fa fa-book fa-4x text-dark"></i>
@@ -53,7 +30,19 @@ return(<div>
                             <p className="mb-4">
                                 اكتب اسم السوره بلغه عربيه صحيحه و سيساعدك سبيل في معرفه كل المعلومات عنها  
                             </p>
-                            <a href="/search" className="btn btn-primary px-3">اقرأ المزيد</a>
+                            <a href="/QuranSearch" className="btn btn-primary px-3">اقرأ المزيد</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-6 col-xl-4">
+                    <div className="activities-item p-4 wow fadeIn" data-wow-delay="0.1s">
+                        <i className="fa fa-book fa-4x text-dark"></i>
+                        <div className="ms-4">
+                            <h4> كتب تفسير</h4>
+                            <p className="mb-4">
+                                ابحث عن كتاب ليساعدك علي تفسير القران  
+                            </p>
+                            <a href="/TafseerBook" className="btn btn-primary px-3">اقرأ المزيد</a>
                         </div>
                     </div>
                 </div>
