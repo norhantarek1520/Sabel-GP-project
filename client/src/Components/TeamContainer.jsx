@@ -11,51 +11,55 @@ function TeamContainer() {
         {/* Single row with team members */}
         <div className="row">
           <div className="d-flex"> {/* Main container for team members */}
-          <div className="team-item mr-4"> 
-              <img
-                src="../../assets/img/team/Nourhan.jpg"
-                alt="Team Member Name"
-                className="img-fluid rounded-circle mb-3 team-member-image"
-              />
-              <h2>Nourahn Tarek </h2>
-              <p>Backend Developer </p>
-            </div> 
-            <div className="team-item mr-4"> 
-              <img
-                src="../../assets/img/team/mostafa.png"
-                alt="Team Member Name"
-                className="img-fluid rounded-circle mb-3 team-member-image"
-              />
-              <h2>Mostafa Gamal </h2>
-              <p>data scientist</p>
-            </div>
-            
-            <div className="team-item mr-4">
+          <div className="team-item  m-4"  >
               <img
                 src="../../assets/img/team/Sara.png"
                 alt="Team Member Name"
                 className="img-fluid rounded-circle mb-3 team-member-image"
+                style={{ width: '230px', height: '240px' }}
               />
-              <h2>Sara waled </h2>
+              <h3>Sara waled </h3>
               <p>Backend Developer</p>
             </div>
-            <div className="team-item mr-4"> 
+            <div className="team-item  m-4" > 
               <img
                 src="../../assets/img/team/mahoud.png"
                 alt="Team Member Name"
                 className="img-fluid rounded-circle mb-3 team-member-image"
+                style={{ width: '230px', height: '240px' }}
               />
-              <h2>Mahmoud Haney </h2>
+              <h3>Mahmoud Haney </h3>
               <p>Backend Developer</p>
             </div>
-            <div className="team-item"> 
+          <div className="team-item  m-4"  > 
+              <img
+                src="../../assets/img/team/Nourhan.jpg"
+                alt="Team Member Name"
+                className="img-fluid rounded-circle mb-3 team-member-image" 
+                style={{ width: '230px', height: '240px' }}
+              />
+              <h3>Nourhan Tarek </h3>
+              <p>Backend Developer </p>
+            </div> 
+            <div className="team-item  m-4"  > 
+              <img
+                src="../../assets/img/team/mostafa.png"
+                alt="Team Member Name"
+                className="img-fluid rounded-circle mb-3 team-member-image"
+                style={{ width: '230px', height: '240px' }}
+              />
+              <h3>Mostafa Gamal </h3>
+              <p>Data scientist</p>
+            </div>
+            <div className="team-item m-4"  > 
               <img
                 src="../../assets/img/team/amera.png"
                 alt="Team Member Name"
                 className="img-fluid rounded-circle mb-3 team-member-image"
+                style={{ width: '230px', height: '240px' }}
               />
-              <h2>Amera osama </h2>
-              <p>Frontend Developer</p>
+              <h3>Amera osama </h3>
+              <p>Data scientist</p>
             </div>
           </div>
         </div>
